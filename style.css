@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    min-height: 100vh;
 }
 
 ul {
@@ -30,15 +31,47 @@ a {
     flex: 1 1 auto;
 }
 
-footer, .header {
+.footer, .header {
     text-align: center;
     background: #1F2937;
 }
 
-.body-content, .navbar {
+.introduction, .navbar {
     padding: 25px 100px;
+    background: #1F2937;
 }
 
-footer {
+.footer {
     padding: 20px;
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+}
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+}
+.introduction-text {
+    flex: 50%;
+}
+.introduction-image {
+    flex: 50%;
+    text-align: center;
+}
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-secondary-text, .right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button {
+    background: #3882F6;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
