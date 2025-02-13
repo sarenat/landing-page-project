@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto';
+    color: #F9FAF8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right-links {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.body-content {
+    flex: 1 1 auto;
+}
+
+footer, .header {
+    text-align: center;
+    background: #1F2937;
+}
+
+.body-content, .navbar {
+    padding: 25px 100px;
+}
+
+footer {
+    padding: 20px;
+}
