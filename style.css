@@ -37,8 +37,11 @@ a {
 }
 
 .introduction, .navbar {
-    padding: 25px 100px;
     background: #1F2937;
+}
+
+.navbar, .introduction, .random-information {
+    padding: 25px 100px;
 }
 
 .footer {
@@ -52,6 +55,7 @@ a {
 .introduction {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 75px;
 }
 .introduction-text {
     flex: 50%;
@@ -74,4 +78,25 @@ button {
     padding: 10px;
     border: none;
     border-radius: 10px;
+}
+
+.information-header-text {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding: 30px;
+}
+.rat-facts {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rat-fact-1, .rat-fact-2, .rat-fact-3 {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    padding: 10px;
+}
+.description {
+    color: #1F2937;
 }
