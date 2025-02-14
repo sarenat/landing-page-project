@@ -40,7 +40,7 @@ a {
     background: #1F2937;
 }
 
-.navbar, .introduction, .random-information {
+.navbar, .introduction, .random-information, .inspiring-quote {
     padding: 25px 100px;
 }
 
@@ -97,6 +97,16 @@ button {
     flex: 30%;
     padding: 10px;
 }
-.description {
+.description, .quoter {
     color: #1F2937;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quoter {
+    text-align: right;
+    font-weight: 900;
 }
