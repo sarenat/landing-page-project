@@ -96,10 +96,13 @@ button {
     flex-direction: column;
     flex: 30%;
     padding: 10px;
+    text-align: center;
+    align-items: center;
 }
 .description, .quoter {
     color: #1F2937;
 }
+
 
 .quote-text {
     font-style: italic;
