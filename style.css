@@ -2,25 +2,21 @@
     font-family: 'Roboto';
     color: #F9FAF8;
 }
-
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
     min-height: 100vh;
 }
-
 ul {
     margin: 0px;
     padding: 0px;
     display: flex;
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
-
 .right-links {
     display: flex;
     margin-left: auto;
@@ -30,18 +26,24 @@ a {
 .body-content {
     flex: 1 1 auto;
 }
-
 .footer, .header {
     text-align: center;
     background: #1F2937;
 }
-
 .introduction, .navbar {
     background: #1F2937;
 }
-
-.navbar, .introduction, .random-information, .inspiring-quote {
+.navbar, .introduction {
     padding: 25px 100px;
+}
+.random-information, .inspiring-quote {
+    padding: 25px 150px;
+}
+.call-to-action {
+    margin: 25px 100px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px 50px;
 }
 
 .footer {
@@ -71,10 +73,10 @@ a {
 .hero-secondary-text, .right-links {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 button {
     background: #3882F6;
-    margin-top: 10px;
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -103,7 +105,6 @@ button {
     color: #1F2937;
 }
 
-
 .quote-text {
     font-style: italic;
     font-size: 36px;
@@ -112,4 +113,19 @@ button {
 .quoter {
     text-align: right;
     font-weight: 900;
+}
+
+.call-to-action-text {
+    flex: 80%;
+}
+.call-to-action-button {
+    display: flex;
+    flex: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.call-to-action-button button {
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
 }
