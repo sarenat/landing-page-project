@@ -1,2 +1,2 @@
 # landing-page-project
-My solution to The Odin Project's Landing Page Assignment - RAT EDITION HEHE
+My take on The Odin Project's Landing Page Assignment - RAT EDITION HEHE
