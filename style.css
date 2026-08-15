@@ -35,23 +35,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    min-height: 100vh;
-}
-ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    list-style-type: none;
+    /* min-height: 100vh; */
 }
 a {
     text-decoration: none;
 }
-.right-links {
-    display: flex;
-    margin-left: auto;
-    gap: 20px;
-}
-
 .body-content {
     flex: 1 1 auto;
 }
@@ -59,35 +47,22 @@ a {
     text-align: center;
     background: #1F2937;
 }
-.introduction, .navbar {
-    background: #1F2937;
-}
-.navbar, .introduction {
-    padding: 25px 100px;
-}
-.call-to-action {
-    margin: 25px 100px;
-    background-color: #3882F6;
-    display: flex;
-    padding: 20px 50px;
-}
-
 .footer {
     padding: 20px;
 }
-
-.inspiring-quote {
-    background-color: #E5E7EB;
+button {
+    background: #3882F6;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
 
 /* ---------- Introduction ---------- */
-.random-information {
-    padding: 10px 75px;
-}
 .introduction {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 75px;
+    padding: 25px 100px;
+    background: #1F2937;
 }
 .introduction-text {
     flex: 50%;
@@ -112,14 +87,11 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
-button {
-    background: #3882F6;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-}
 
 /* ---------- Random Info ---------- */
+.random-information {
+    padding: 10px 75px;
+}
 .information-header-text {
     color: #1F2937;
     font-weight: 900;
@@ -149,6 +121,7 @@ button {
 /* ---------- Quotes ---------- */
 .inspiring-quote {
     padding: 25px 100px;
+    background-color: #E5E7EB;
 }
 .quote-text {
     font-style: italic;
@@ -162,6 +135,12 @@ button {
 }
 
 /* ---------- Call to Action ---------- */
+.call-to-action {
+    margin: 25px 100px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px 50px;
+}
 .call-to-action-text {
     flex: 80%;
 }
