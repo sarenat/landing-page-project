@@ -136,13 +136,18 @@ button {
 
 /* ---------- Call to Action ---------- */
 .call-to-action {
-    margin: 25px 100px;
-    background-color: #3882F6;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    background-color: #3882F6;
+    margin: 25px 100px;
     padding: 20px 50px;
 }
 .call-to-action-text {
+    text-align: center;
     flex: 80%;
+    padding-bottom: 10px;
 }
 .call-to-action-button {
     display: flex;
