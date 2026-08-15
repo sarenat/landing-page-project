@@ -90,7 +90,7 @@ button {
 
 /* ---------- Random Info ---------- */
 .random-information {
-    padding: 10px 75px;
+    padding: 10px 50px;
 }
 .information-header-text {
     color: #1F2937;
@@ -120,7 +120,7 @@ button {
 
 /* ---------- Quotes ---------- */
 .inspiring-quote {
-    padding: 25px 100px;
+    padding: 45px 75px;
     background-color: #E5E7EB;
 }
 .quote-text {
