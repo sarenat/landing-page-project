@@ -65,9 +65,6 @@ a {
 .navbar, .introduction {
     padding: 25px 100px;
 }
-.random-information, .inspiring-quote {
-    padding: 25px 150px;
-}
 .call-to-action {
     margin: 25px 100px;
     background-color: #3882F6;
@@ -84,6 +81,9 @@ a {
 }
 
 /* ---------- Introduction ---------- */
+.random-information {
+    padding: 10px 75px;
+}
 .introduction {
     display: flex;
     flex-wrap: wrap;
@@ -135,12 +135,15 @@ button {
     display: flex;
     flex-direction: column;
     flex: 30%;
-    padding: 10px;
+    padding: 20px 10px;
     text-align: center;
     align-items: center;
 }
 .description, .quoter {
     color: #1F2937;
+}
+.rat-facts p {
+    padding: 15px;
 }
 
 /* ---------- Quotes ---------- */
