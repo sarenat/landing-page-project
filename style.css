@@ -93,17 +93,21 @@ a {
     flex: 50%;
 }
 .introduction-image {
+    display: flex;
     flex: 50%;
     text-align: center;
+    min-width: 0px;
 }
 .introduction-image img {
     margin: auto;
+    max-width: 250px;
+    min-width: 0px;
 }
-.hero-main-text {
+.introduction-main-text {
     font-size: 48px;
     font-weight: 900;
 }
-.hero-secondary-text, .right-links {
+.introduction-secondary-text, .right-links {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
@@ -138,7 +142,6 @@ button {
 .description, .quoter {
     color: #1F2937;
 }
-
 
 /* ---------- Quotes ---------- */
 .quote-text {
