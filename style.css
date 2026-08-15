@@ -91,6 +91,7 @@ a {
 }
 .introduction-text {
     flex: 50%;
+    padding-bottom: 25px;
 }
 .introduction-image {
     display: flex;
@@ -110,7 +111,6 @@ a {
 .introduction-secondary-text, .right-links {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 10px;
 }
 button {
     background: #3882F6;
