@@ -1,3 +1,31 @@
+/* ---------- CSS Reset ---------- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*:not(dialog) {
+    margin: 0;
+}
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+body {
+    line-height: 1.5;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    /* max-width: 100%; */
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5 {
+    overflow-wrap: break-word;
+}
+p {
+    text-wrap: pretty;
+}
+
 * {
     font-family: 'Roboto';
     color: #F9FAF8;
@@ -65,6 +93,9 @@ a {
 .introduction-image {
     flex: 50%;
     text-align: center;
+}
+.introduction-image img {
+    margin: auto;
 }
 .hero-main-text {
     font-size: 48px;
