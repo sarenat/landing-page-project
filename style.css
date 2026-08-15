@@ -147,6 +147,9 @@ button {
 }
 
 /* ---------- Quotes ---------- */
+.inspiring-quote {
+    padding: 25px 100px;
+}
 .quote-text {
     font-style: italic;
     font-size: 36px;
@@ -155,6 +158,7 @@ button {
 .quoter {
     text-align: right;
     font-weight: 900;
+    padding-bottom: 25px;
 }
 
 /* ---------- Call to Action ---------- */
